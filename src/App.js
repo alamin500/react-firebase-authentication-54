@@ -1,3 +1,19 @@
+import React from "react";
+import initializeAuthentication from "./Firebase/firebase.init";
+
+initializeAuthentication();
+const App = () => {
+  const handleGoogleSignIn = () => {};
+
+  return (
+    <div>
+      <button>Google Sign In</button>
+    </div>
+  );
+};
+
+export default App;
+
 // import {
 //   getAuth,
 //   signInWithPopup,
